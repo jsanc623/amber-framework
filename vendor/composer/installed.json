@@ -1,0 +1,1180 @@
+[
+    {
+        "name": "jsanc623/phpbenchtime",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jsanc623/PHPBenchTime.git",
+            "reference": "3674b13bcce9c600ed59656ff4433f77e166ae00"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jsanc623/PHPBenchTime/zipball/3674b13bcce9c600ed59656ff4433f77e166ae00",
+            "reference": "3674b13bcce9c600ed59656ff4433f77e166ae00",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-01-31 21:46:07",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Juan Sanchez",
+                "email": "juan.sanchez@juanleonardosanchez.com"
+            }
+        ],
+        "description": "A light benchmark timer class for PHP."
+    },
+    {
+        "name": "jsanc623/lazyloader",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jsanc623/LazyLoader.git",
+            "reference": "70410275a04386545b042036c2f4ca8de1984b44"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jsanc623/LazyLoader/zipball/70410275a04386545b042036c2f4ca8de1984b44",
+            "reference": "70410275a04386545b042036c2f4ca8de1984b44",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2013-07-10 15:24:05",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Juan Sanchez",
+                "email": "juan.sanchez@juanleonardosanchez.com"
+            }
+        ],
+        "description": "A fast, strict lazy loader."
+    },
+    {
+        "name": "symfony/console",
+        "version": "v2.3.1",
+        "version_normalized": "2.3.1.0",
+        "target-dir": "Symfony/Component/Console",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Console.git",
+            "reference": "v2.3.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.1",
+            "reference": "v2.3.1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/event-dispatcher": ">=2.1,<3.0"
+        },
+        "suggest": {
+            "symfony/event-dispatcher": ""
+        },
+        "time": "2013-06-11 07:15:14",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Console\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "doctrine/lexer",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git",
+            "reference": "v1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/doctrine/lexer/archive/v1.0.zip",
+            "reference": "v1.0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-01-12 18:59:04",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Lexer\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "http://jmsyst.com",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "lexer",
+            "parser"
+        ]
+    },
+    {
+        "name": "symfony/process",
+        "version": "v2.3.1",
+        "version_normalized": "2.3.1.0",
+        "target-dir": "Symfony/Component/Process",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Process.git",
+            "reference": "v2.3.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Process/zipball/v2.3.1",
+            "reference": "v2.3.1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2013-05-06 20:03:44",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Process\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Process Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "doctrine/annotations",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/annotations.git",
+            "reference": "v1.1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/annotations/zipball/v1.1.2",
+            "reference": "v1.1.2",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/lexer": "1.*",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "doctrine/cache": "1.*"
+        },
+        "time": "2013-06-16 21:33:03",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Annotations\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "http://jmsyst.com",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Docblock Annotations Parser",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "docblock",
+            "parser"
+        ]
+    },
+    {
+        "name": "doctrine/collections",
+        "version": "v1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/collections.git",
+            "reference": "v1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/collections/zipball/v1.1",
+            "reference": "v1.1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-03-07 12:15:54",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Collections\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "http://jmsyst.com",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Collections Abstraction library",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "array",
+            "collections",
+            "iterator"
+        ]
+    },
+    {
+        "name": "doctrine/cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/cache.git",
+            "reference": "dc3438804c6303f1b5892f184a79aa8e3ce5d81d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/cache/zipball/dc3438804c6303f1b5892f184a79aa8e3ce5d81d",
+            "reference": "dc3438804c6303f1b5892f184a79aa8e3ce5d81d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "conflict": {
+            "doctrine/common": ">2.2,<2.4"
+        },
+        "time": "2013-07-04 15:48:06",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Cache\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "http://jmsyst.com",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Caching library offering an object-oriented API for many cache backends",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "cache",
+            "caching"
+        ]
+    },
+    {
+        "name": "doctrine/inflector",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/inflector.git",
+            "reference": "v1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/doctrine/inflector/archive/v1.0.zip",
+            "reference": "v1.0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-01-10 21:49:15",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Inflector\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "http://jmsyst.com",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "inflection",
+            "pluarlize",
+            "singuarlize",
+            "string"
+        ]
+    },
+    {
+        "name": "doctrine/common",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/common.git",
+            "reference": "6a39bb947b20d12a16820f2709509e41e28af005"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/common/zipball/6a39bb947b20d12a16820f2709509e41e28af005",
+            "reference": "6a39bb947b20d12a16820f2709509e41e28af005",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/annotations": "1.*",
+            "doctrine/cache": "1.*",
+            "doctrine/collections": "1.*",
+            "doctrine/inflector": "1.*",
+            "doctrine/lexer": "1.*",
+            "php": ">=5.3.2"
+        },
+        "time": "2013-07-02 11:26:20",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "http://jmsyst.com",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Common Library for Doctrine projects",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "collections",
+            "eventmanager",
+            "persistence",
+            "spl"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabpot/Twig.git",
+            "reference": "89007e5cc13011dbc063bd35aa6eb4d62754f727"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabpot/Twig/zipball/89007e5cc13011dbc063bd35aa6eb4d62754f727",
+            "reference": "89007e5cc13011dbc063bd35aa6eb4d62754f727",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2013-07-05 17:16:02",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.13-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "swiftmailer/swiftmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/swiftmailer/swiftmailer.git",
+            "reference": "67473624fea1bdb63e2eb5a90254c7ade5562c9f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/67473624fea1bdb63e2eb5a90254c7ade5562c9f",
+            "reference": "67473624fea1bdb63e2eb5a90254c7ade5562c9f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2013-06-18 06:36:28",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "lib/swift_required.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Chris Corbyn"
+            }
+        ],
+        "description": "Swiftmailer, free feature-rich PHP mailer",
+        "homepage": "http://swiftmailer.org",
+        "keywords": [
+            "mail",
+            "mailer"
+        ]
+    },
+    {
+        "name": "doctrine/dbal",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/dbal.git",
+            "reference": "2.4.0-RC2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/dbal/zipball/2.4.0-RC2",
+            "reference": "2.4.0-RC2",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/common": "2.4.*@beta",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*",
+            "symfony/console": "2.*"
+        },
+        "suggest": {
+            "symfony/console": "Allows use of the command line interface"
+        },
+        "time": "2013-06-25 17:49:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\DBAL\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            }
+        ],
+        "description": "Database Abstraction Layer",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "database",
+            "dbal",
+            "persistence",
+            "queryobject"
+        ]
+    },
+    {
+        "name": "doctrine/orm",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/doctrine2.git",
+            "reference": "78fc1296145dc798fdfa8e5657b6b91d58f8c184"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/78fc1296145dc798fdfa8e5657b6b91d58f8c184",
+            "reference": "78fc1296145dc798fdfa8e5657b6b91d58f8c184",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/collections": "~1.1",
+            "doctrine/dbal": ">=2.4-beta,<2.5-dev",
+            "ext-pdo": "*",
+            "php": ">=5.3.2",
+            "symfony/console": "2.*"
+        },
+        "require-dev": {
+            "satooshi/php-coveralls": "dev-master",
+            "symfony/yaml": "2.1"
+        },
+        "suggest": {
+            "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
+        },
+        "time": "2013-07-07 19:37:55",
+        "bin": [
+            "bin/doctrine",
+            "bin/doctrine.php"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\ORM\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            }
+        ],
+        "description": "Object-Relational-Mapper for PHP",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "database",
+            "orm"
+        ]
+    },
+    {
+        "name": "kriswallsmith/assetic",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kriswallsmith/assetic.git",
+            "reference": "82e8fc20a3b043b378a7efbda9e3d406d420f00e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/82e8fc20a3b043b378a7efbda9e3d406d420f00e",
+            "reference": "82e8fc20a3b043b378a7efbda9e3d406d420f00e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1",
+            "symfony/process": "~2.1"
+        },
+        "require-dev": {
+            "cssmin/cssmin": "*",
+            "joliclic/javascript-packer": "*",
+            "kamicane/packager": "*",
+            "leafo/lessphp": "*",
+            "leafo/scssphp": "*",
+            "leafo/scssphp-compass": "*",
+            "mrclay/minify": "*",
+            "phpunit/phpunit": "~3.7",
+            "ptachoire/cssembed": "*",
+            "twig/twig": "~1.6"
+        },
+        "suggest": {
+            "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+            "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+            "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
+            "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+            "twig/twig": "Assetic provides the integration with the Twig templating engine"
+        },
+        "time": "2013-06-13 16:47:03",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Assetic": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kris Wallsmith",
+                "email": "kris.wallsmith@gmail.com",
+                "homepage": "http://kriswallsmith.net/"
+            }
+        ],
+        "description": "Asset Management for PHP",
+        "homepage": "https://github.com/kriswallsmith/assetic",
+        "keywords": [
+            "assets",
+            "compression",
+            "minification"
+        ]
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/EventDispatcher.git",
+            "reference": "4b34aad44d0a2d91f301ee967151ce0980f39930"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/4b34aad44d0a2d91f301ee967151ce0980f39930",
+            "reference": "4b34aad44d0a2d91f301ee967151ce0980f39930",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/dependency-injection": "~2.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2013-05-16 07:54:39",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/Yaml",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Yaml.git",
+            "reference": "82100c7732c95452702d11433aad50988700d36c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Yaml/zipball/82100c7732c95452702d11433aad50988700d36c",
+            "reference": "82100c7732c95452702d11433aad50988700d36c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2013-05-16 07:54:39",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Yaml\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "leafo/lessphp",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafo/lessphp.git",
+            "reference": "366fb52798d4f120503af0703da11cba4ad06f8d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafo/lessphp/zipball/366fb52798d4f120503af0703da11cba4ad06f8d",
+            "reference": "366fb52798d4f120503af0703da11cba4ad06f8d",
+            "shasum": ""
+        },
+        "time": "2013-07-09 16:25:09",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.3-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lessc.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Leaf Corcoran",
+                "email": "leafot@gmail.com",
+                "homepage": "http://leafo.net"
+            }
+        ],
+        "description": "lessphp is a compiler for LESS written in PHP.",
+        "homepage": "http://leafo.net/lessphp/"
+    },
+    {
+        "name": "ptachoire/cssembed",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/krichprollsch/phpCssEmbed.git",
+            "reference": "v1.0.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/krichprollsch/phpCssEmbed/zipball/v1.0.1",
+            "reference": "v1.0.1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-04-29 19:58:29",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "CssEmbed": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Pierre Tachoire",
+                "email": "pierre.tachoire@gmail.com"
+            }
+        ],
+        "description": "Css url embed library.",
+        "homepage": "https://github.com/krichprollsch/phpCssEmbed",
+        "keywords": [
+            "css",
+            "url"
+        ]
+    },
+    {
+        "name": "leafo/scssphp",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafo/scssphp.git",
+            "reference": "54ed273059350ef3e28ea32ffcf8427ac4f8e8f1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafo/scssphp/zipball/54ed273059350ef3e28ea32ffcf8427ac4f8e8f1",
+            "reference": "54ed273059350ef3e28ea32ffcf8427ac4f8e8f1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "require-dev": {
+            "php": ">=5.3.0",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2013-06-13 16:04:17",
+        "bin": [
+            "pscss"
+        ],
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "scss.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Leaf Corcoran",
+                "email": "leafot@gmail.com",
+                "homepage": "http://leafo.net"
+            }
+        ],
+        "description": "scssphp is a compiler for SCSS written in PHP.",
+        "homepage": "http://leafo.net/scssphp/"
+    },
+    {
+        "name": "leafo/scssphp-compass",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafo/scssphp-compass.git",
+            "reference": "f1631ddb17731326863954d99b39694f0bbed6ec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafo/scssphp-compass/zipball/f1631ddb17731326863954d99b39694f0bbed6ec",
+            "reference": "f1631ddb17731326863954d99b39694f0bbed6ec",
+            "shasum": ""
+        },
+        "require": {
+            "leafo/scssphp": "dev-master"
+        },
+        "time": "2012-08-02 02:04:32",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "compass.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Leaf Corcoran",
+                "email": "leafot@gmail.com",
+                "homepage": "http://leafo.net"
+            }
+        ],
+        "description": "Compass for scssphp",
+        "homepage": "http://leafo.net/scssphp/"
+    }
+]

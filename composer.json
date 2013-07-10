@@ -1,0 +1,29 @@
+{
+    "name": "jsanc623/amber-framework",
+    "description": "A rapid routing PHP framework",
+    "require": {
+        "jsanc623/phpbenchtime": "dev-master",
+        "jsanc623/lazyloader": "dev-master",
+        "doctrine/common": "dev-master",
+        "twig/twig": "dev-master",
+        "swiftmailer/swiftmailer": "dev-master",
+        "doctrine/orm": "dev-master",
+        "doctrine/annotations": "dev-master",
+        "doctrine/cache": "dev-master",
+        "doctrine/dbal": "dev-master",
+        "kriswallsmith/assetic": "dev-master",
+        "symfony/event-dispatcher": "dev-master",
+        "symfony/yaml": "dev-master",
+        "leafo/lessphp": "dev-master",
+        "leafo/scssphp": "dev-master",
+        "ptachoire/cssembed": "dev-master",
+        "leafo/scssphp-compass": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan L. Sanchez",
+            "email": "juan.sanchez@juanleonardosanchez.com"
+        }
+    ]
+}
