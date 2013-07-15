@@ -39,83 +39,70 @@
  * @since		Version 1.0
  * @filesource
  */
-	
-Namespace Amber;
-	
-	require("config.php");
+
+require("config.php");
+
 
 /**
- * ERROR REPORTING
+ * Error reporting
  */
-	switch ($config['environment']) {
-		case 'development':
-			error_reporting(-1);
-			ini_set('display_errors', 1);
-		break;
-	
-		case 'production':
-			error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED ^ E_STRICT);
-			ini_set('display_errors', 0);
-		break;
-	
-		default:
-			header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-			echo 'The application environment is not set correctly.';
-			exit(1);
-	}
+switch ($config['environment']) {
+	case 'development':
+		error_reporting(-1);
+		ini_set('display_errors', 1);
+	break;
 
+	case 'production':
+		error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED ^ E_STRICT);
+		ini_set('display_errors', 0);
+	break;
 
-
+	default:
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
+		exit(1);
+}
 
 
 /*
  *  Resolve the system path for increased reliability
  */
-	if (($_temp = realpath($config['system_directory'])) !== FALSE){
-		$config['system_directory'] = $_temp . '/';
-	}
+if (($_temp = realpath($config['system_directory'])) !== FALSE){
+	$config['system_directory'] = $_temp . '/';
+}
 
-	// Is the system path correct?
-	if ( ! is_dir($config['system_directory'])){
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
-		exit(3); 
-	}
+// Is the system path correct?
+if ( ! is_dir($config['system_directory'])){
+	header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+	echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+	exit(3);
+}
+
 
 /*
  *  Now that we know the path, set the main path constants
  */
- 	// Path to this file
-	$config['paths']['self'] = pathinfo(__FILE__, PATHINFO_BASENAME);
+// Path to this file
+$config['paths']['self'] = pathinfo(__FILE__, PATHINFO_BASENAME);
 
-	// Path to the system folder
-	$config['paths']['basepath'] = str_replace('\\', '/', $config['system_directory']);
+// Path to the system folder
+$config['paths']['basepath'] = str_replace('\\', '/', $config['system_directory']);
 
-	// Path to the front controller (this file)
-	$config['paths']['selfpath'] = str_replace($config['paths']['basepath'], '', __FILE__);
+// Path to the front controller (this file)
+$config['paths']['selfpath'] = str_replace($config['paths']['basepath'], '', __FILE__);
 
-	// The path to the "application" folder
-	if (is_dir($config['application_directory'])){
-		if (($_temp = realpath($config['application_directory'])) !== FALSE){
-			$config['application_directory'] = $_temp;
-		}
-
-		$config['paths']['apppath'] = $config['application_directory'] . '/';
-	} else {
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your application folder path does not appear to be set correctly. Please open the the config and correct this.';
-		exit(3);
+// The path to the "application" folder
+if (is_dir($config['application_directory'])){
+	if (($_temp = realpath($config['application_directory'])) !== FALSE){
+		$config['application_directory'] = $_temp;
 	}
 
-/**
- * Require the Autoloader class
- */
-require $config['paths']['basepath'] . 'Loader.php';
-
-/**
- * Require the Common class - a collection of functions
- */
-require $config['paths']['basepath'] . 'Common.php';
+	$config['paths']['apppath'] = $config['application_directory'] . '/';
+} else {
+	header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+	echo 'Your application folder path does not appear to be set correctly. Please open the the config and correct this.';
+	exit(3);
+}
 
 /*
  * Load the Bootloader
