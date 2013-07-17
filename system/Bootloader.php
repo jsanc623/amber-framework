@@ -41,4 +41,19 @@ $Model      = new Model;
 $View       = new View;
 $Cache      = new Cache;
 
-print_r($Uri->getUri());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
