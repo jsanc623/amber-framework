@@ -40,6 +40,7 @@ $config['error_handler']         = "default";
  */
 $config['application_directory'] = 'applications';
 $config['system_directory'] = 'system';
+$config['cache_directory'] = 'cache';
 
 /**
  * Configuration options for database

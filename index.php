@@ -1,6 +1,7 @@
 <?php
 /**
  * Amber PHP Framework
+ * v[1.0.0];
  *
  * An open source application development framework for PHP 5.4.0 or newer
  *
@@ -35,9 +36,6 @@
  * @author		Gremlin Soft, LLC > Gremlins DevTeam
  * @copyright	Copyright (c) 2013, Gremlin Soft, LLC.
  * @license		http://opensource.org/licenses/MIT MIT License
- * @link		
- * @since		Version 1.0
- * @filesource
  */
 
 require("config.php");
