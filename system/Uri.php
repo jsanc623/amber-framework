@@ -20,7 +20,11 @@ class Uri {
 	}
 	
 	public function getBase(){
-		return explode("?", $this->uri['full_uri'])[0];
+	    if(strpos($this->uri['full_uri'], "?") === false){
+            return $this->uri['full_uri'];
+        } else {
+            return explode("?", $this->uri['full_uri'])[0];
+        }
 	}
 	
 	public function getUri(){
@@ -47,8 +51,10 @@ class Uri {
 
 			// list the path parts
 			list($_temp, 
-			     $url['path_parts']['controller'], 
-			     $url['path_parts']['model']) = explode("/", $url['path']);
+                 $url['path_parts']['controller'], 
+                 $url['path_parts']['action']) = strlen(explode("/", $url['path'])[1]) > 0 &&
+                                                 strlen(explode("/", $url['path'])[2]) > 0 ? 
+                                                 explode("/", $url['path']) : array("", "index", "");
 
 			// list the query parts in key=>value mode
 			if(isset($url['query'])){

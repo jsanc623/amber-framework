@@ -39,7 +39,7 @@ $Uri        = new Uri;
 $Controller = new Controller;
 $Model      = new Model;
 $View       = new View;
-$Cache      = new Cache;
+$Cache      = new Cache($Uri->uri['full_uri']);
 
 
 

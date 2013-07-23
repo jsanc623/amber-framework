@@ -29,7 +29,7 @@ class Error {
 			case 256  : $type = "E_USER_ERROR"; break;
 			case 512  : $type = "E_USER_WARNING"; break;
 			case 1024 : $type = "E_USER_ERROR"; break;
-			case $type = "Unknown";
+            default : $type = "Unknown: " . $this->number . " ";
 		}
 		
 		$html = <<< ERROR
@@ -63,7 +63,8 @@ ERROR;
 				echo $this->buildHTML();
 				break;			
 			default:
-				echo "<b>An unknown error occurred >> Error: [" . $error_number . "] " . $error_string;
+				echo "<b>An unknown error occurred >> Error: [" . $error_number . "] " . $error_string . " in "
+                     . $error_file . " on " . $error_line;
 				break;
 		}
 		die();
