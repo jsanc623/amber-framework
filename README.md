@@ -1,4 +1,4 @@
-DEFUNCT
+THIS PROJECT IS INACTIVE
 =======
 
 amber-framework
